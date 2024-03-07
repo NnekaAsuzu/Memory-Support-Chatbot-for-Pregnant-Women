@@ -16,17 +16,7 @@ The project is proposed to address the lack of easily accessible and personalize
 
 *Dictionary-Based DataFrame creation method: This method reads the text files into a list of dictionaries and then creates a pandas DataFrame from these dictionaries using streamlit as the Gradio. Model is fine-tuned*
 
-Install Required Libraries
-"""
 
-# Libraries
-!pip install pandas      # Pandas for data manipulation and analysis
-!pip install matplotlib  # Matplotlib for data visualization
-!pip install nltk        # NLTK for natural language processing tasks
-!pip install wordcloud   # Wordcloud for generating word clouds
-!pip install transformers # Transformers for accessing the GPT-2 model  #library for accessing the GPT-2 model
-
-"""Import Libraries"""
 
 import pandas as pd                  # Pandas for data manipulation and analysis
 import nltk                          # NLTK for natural language processing tasks
