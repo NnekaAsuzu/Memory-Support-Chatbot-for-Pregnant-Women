@@ -36,6 +36,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer      # TF-IDF vector
 from sklearn.decomposition import LatentDirichletAllocation      # LDA for topic modeling
 nltk.download('vader_lexicon')  # Download the VADER lexicon for sentiment analysis
 sia = SentimentIntensityAnalyzer()  # Initialize the SentimentIntensityAnalyzer
+import os # Import the os module for interacting with the operating system
 
 # # Load the pre-trained GPT-2 model and tokenizer
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2')    # GPT-2 tokenizer
@@ -78,6 +79,22 @@ for file_path in txt_files:
         data.append({"text": text})
 
 df = pd.DataFrame(data)
+
+
+
+
+# Assuming 'Articles' is the folder name in your GitHub repository
+folder_path = "path_to_your_repository/Articles"  # Update with the actual path
+
+# Get all files in the folder
+files = os.listdir(folder_path)
+
+# Filter out only the text files
+txt_files = [file for file in files if file.endswith(".txt")]
+
+# Print the list of text files
+for file in txt_files:
+    print(file)
 
 # Display the DataFrame
 print(df)
