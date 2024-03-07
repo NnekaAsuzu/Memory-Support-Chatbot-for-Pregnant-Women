@@ -20,7 +20,6 @@ Install Required Libraries
 """
 
 # Libraries
-!pip install streamlit   # Streamlit for creating interactive web apps
 !pip install pandas      # Pandas for data manipulation and analysis
 !pip install matplotlib  # Matplotlib for data visualization
 !pip install nltk        # NLTK for natural language processing tasks
