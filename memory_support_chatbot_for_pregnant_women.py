@@ -71,10 +71,20 @@ txt_files = [
     "'Mommy brain' might be a good thing, new research suggests | CBC Radio.txt"
 ]
 
-#Load and read the text files into a DataFrame
+
+# Define the folder path for all articles
+folder_path = "Memory-Support-Chatbot-for-Pregnant-Women/Articles/"
+
+# Get all files in the folder
+files = os.listdir(folder_path)
+
+# Filter out only the text files
+txt_files = [file for file in files if file.endswith(".txt")]
+
+# Load and read the text files into a DataFrame
 data = []
 for file_path in txt_files:
-    with open(file_path, "r") as file:
+    with open(os.path.join(folder_path, file_path), "r") as file:
         text = file.read()
         data.append({"text": text})
 
@@ -82,6 +92,8 @@ df = pd.DataFrame(data)
 
 # Display the DataFrame
 print(df)
+
+
 
 """##Data Cleaning and Manipulation"""
 
