@@ -80,22 +80,6 @@ for file_path in txt_files:
 
 df = pd.DataFrame(data)
 
-
-
-
-# Assuming 'Articles' is the folder name in your GitHub repository
-folder_path = "path_to_your_repository/Articles"  # Update with the actual path
-
-# Get all files in the folder
-files = os.listdir(folder_path)
-
-# Filter out only the text files
-txt_files = [file for file in files if file.endswith(".txt")]
-
-# Print the list of text files
-for file in txt_files:
-    print(file)
-
 # Display the DataFrame
 print(df)
 
