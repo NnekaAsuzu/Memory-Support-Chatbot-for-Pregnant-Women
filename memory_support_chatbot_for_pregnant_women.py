@@ -47,7 +47,6 @@ model.resize_token_embeddings(len(tokenizer))         # Resize token embeddings
 # List of file paths for the TXT files
 #Define the list of file paths for the TXT files
 txt_files = [
-   txt_files = [
     "Cognition in Pregnancy- Perceptions and Performance, 2005-2006 - Dataset - B2FIND.txt",
     "Frontiers | Cognitive disorder and associated factors among pregnant women attending antenatal servi.txt",
     "Frustrated By Brain Fog? How Pregnancy Actually Alters Yo....txt",
