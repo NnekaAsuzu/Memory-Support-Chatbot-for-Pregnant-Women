@@ -34,10 +34,10 @@ Future improvements to the chatbox could include:
 Nneka Asuzu
 
 ## Setup
-
 To run the Memory Support Chatbox for Pregnant Women locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/NnekaAsuzu/memory-support-chatbox.git`
-2. Navigate to the project directory: `cd memory-support-chatbox`
+1. Clone the repository: `git clone https://github.com/NnekaAsuzu/Memory-Support-Chatbot-for-Pregnant-Women.git`
+2. Navigate to the project directory: `cd Memory-Support-Chatbot-for-Pregnant-Women`
 3. Install dependencies: `pip install -r requirements.txt`
 4. Run the chatbox: `python chatbox.py`
+
