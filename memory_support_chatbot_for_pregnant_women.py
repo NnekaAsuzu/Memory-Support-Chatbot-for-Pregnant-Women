@@ -47,27 +47,28 @@ model.resize_token_embeddings(len(tokenizer))         # Resize token embeddings
 # List of file paths for the TXT files
 #Define the list of file paths for the TXT files
 txt_files = [
-    "/content/Cognition in Pregnancy- Perceptions and Performance, 2005-2006 - Dataset - B2FIND.txt",
-    "/content/Frontiers | Cognitive disorder and associated factors among pregnant women attending antenatal servi.txt",
-    "/content/Frustrated By Brain Fog? How Pregnancy Actually Alters Yo....txt",
-    "/content/Is Pregnancy Brain Real?.txt",
-    "/content/Is ‘pregnancy brain’ real or just a myth? | Your Pregnancy Matters | UT Southwestern Medical Center.txt",
-    "/content/Memory and affective changes during the antepartum- A narrative review and integrative hypothesis- J.txt",
-    "/content/Pregnancy 'does cause memory loss' | Medical research | The Guardian.txt",
-    "/content/Pregnancy Brain — Forgetfulness During Pregnancy.txt",
-    "/content/Pregnancy brain- When it starts and what causes pregnancy brain fog | BabyCenter.txt",
-    "/content/Pregnancy does cause memory loss, study says - CNN.txt",
-    "/content/Textbook J.A. Russell, A.J. Douglas, R.J. Windle, C.D. Ingram - The Maternal Brain_ Neurobiological and Neuroendocrine Adaptation and Disorders in Pregnancy & Post Partum-Elsevier Science (2001).txt",
-    "/content/The effect of pregnancy on maternal cognition - PMC.txt",
-    "/content/This Is Your Brain on Motherhood - The New York Times.txt",
-    "/content/Working memory from pregnancy to postpartum.txt",
-    "/content/What Is Mom Brain and Is It Real?.txt",
-    "/content/Memory loss in Pregnancy- Myth or Fact? - International Forum for Wellbeing in Pregnancy.txt",
-    "/content/Memory and mood changes in pregnancy- a qualitative content analysis of women’s first-hand accounts.txt",
-    "/content/Is Mom Brain real? Understanding and coping with postpartum brain fog.txt",
-    "/content/Everyday Life Memory Deficits in Pregnant Women.txt",
-    "/content/Cognitive Function Decline in the Third Trimester.txt",
-    "/content/'Mommy brain' might be a good thing, new research suggests | CBC Radio.txt"
+   txt_files = [
+    "Cognition in Pregnancy- Perceptions and Performance, 2005-2006 - Dataset - B2FIND.txt",
+    "Frontiers | Cognitive disorder and associated factors among pregnant women attending antenatal servi.txt",
+    "Frustrated By Brain Fog? How Pregnancy Actually Alters Yo....txt",
+    "Is Pregnancy Brain Real?.txt",
+    "Is ‘pregnancy brain’ real or just a myth? | Your Pregnancy Matters | UT Southwestern Medical Center.txt",
+    "Memory and affective changes during the antepartum- A narrative review and integrative hypothesis- J.txt",
+    "Pregnancy 'does cause memory loss' | Medical research | The Guardian.txt",
+    "Pregnancy Brain — Forgetfulness During Pregnancy.txt",
+    "Pregnancy brain- When it starts and what causes pregnancy brain fog | BabyCenter.txt",
+    "Pregnancy does cause memory loss, study says - CNN.txt",
+    "Textbook J.A. Russell, A.J. Douglas, R.J. Windle, C.D. Ingram - The Maternal Brain_ Neurobiological and Neuroendocrine Adaptation and Disorders in Pregnancy & Post Partum-Elsevier Science (2001).txt",
+    "The effect of pregnancy on maternal cognition - PMC.txt",
+    "This Is Your Brain on Motherhood - The New York Times.txt",
+    "Working memory from pregnancy to postpartum.txt",
+    "What Is Mom Brain and Is It Real?.txt",
+    "Memory loss in Pregnancy- Myth or Fact? - International Forum for Wellbeing in Pregnancy.txt",
+    "Memory and mood changes in pregnancy- a qualitative content analysis of women’s first-hand accounts.txt",
+    "Is Mom Brain real? Understanding and coping with postpartum brain fog.txt",
+    "Everyday Life Memory Deficits in Pregnant Women.txt",
+    "Cognitive Function Decline in the Third Trimester.txt",
+    "'Mommy brain' might be a good thing, new research suggests | CBC Radio.txt"
 ]
 
 #Load and read the text files into a DataFrame
