@@ -190,16 +190,16 @@ for i, topic in enumerate(topics):
 
 
 
-
 df['sentiment_score'] = df['cleaned_text'].apply(lambda x: sia.polarity_scores(x)['compound'])
 
-ot the sentiment scores
 plt.figure(figsize=(10, 6))
 plt.hist(df['sentiment_score'], bins=20, color='green')
 plt.xlabel('Sentiment Score')
 plt.ylabel('Frequency')
 plt.title('Sentiment Analysis of Articles')
 plt.show()
+
+
 
 
 
