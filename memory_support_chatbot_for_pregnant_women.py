@@ -18,7 +18,7 @@ The project is proposed to address the lack of easily accessible and personalize
 
 
 
-import pandas as pd                  # Pandas for data manipulation and analysis
+import pandas as pd               # Pandas for data manipulation and analysis
 import nltk                          # NLTK for natural language processing tasks
 from nltk.corpus import stopwords    # Stopwords from NLTK
 from nltk.tokenize import word_tokenize   # Word tokenizer from NLTK
@@ -71,7 +71,7 @@ txt_files = [
     "'Mommy brain' might be a good thing, new research suggests | CBC Radio.txt"
 ]
 
-#Load and read the text files into a DataFrame
+# Load and read the text files into a DataFrame
 data = []
 for file_path in txt_files:
     with open(file_path, "r") as file:
@@ -82,8 +82,6 @@ df = pd.DataFrame(data)
 
 # Display the DataFrame
 print(df)
-
-
 
 """##Data Cleaning and Manipulation"""
 
