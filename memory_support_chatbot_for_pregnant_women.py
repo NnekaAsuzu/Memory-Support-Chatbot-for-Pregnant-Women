@@ -17,7 +17,7 @@ The project is proposed to address the lack of easily accessible and personalize
 *Dictionary-Based DataFrame creation method: This method reads the text files into a list of dictionaries and then creates a pandas DataFrame from these dictionaries using streamlit as the Gradio. Model is fine-tuned*
 
 
-import os # Import the os module for interacting with the operating system
+import os                            # Import the os module for interacting with the operating system
 import pandas as pd                  # Pandas for data manipulation and analysis
 import nltk                          # NLTK for natural language processing tasks
 from nltk.corpus import stopwords    # Stopwords from NLTK
@@ -71,20 +71,10 @@ txt_files = [
     "'Mommy brain' might be a good thing, new research suggests | CBC Radio.txt"
 ]
 
-
-# Define the folder path for all articles
-folder_path = "Memory-Support-Chatbot-for-Pregnant-Women/Articles/"
-
-# Get all files in the folder
-files = os.listdir(folder_path)
-
-# Filter out only the text files
-txt_files = [file for file in files if file.endswith(".txt")]
-
-# Load and read the text files into a DataFrame
+#Load and read the text files into a DataFrame
 data = []
 for file_path in txt_files:
-    with open(os.path.join(folder_path, file_path), "r") as file:
+    with open(file_path, "r") as file:
         text = file.read()
         data.append({"text": text})
 
