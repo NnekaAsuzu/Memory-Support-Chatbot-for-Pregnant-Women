@@ -1,13 +1,21 @@
 # -*- coding: utf-8 -*-
 #Proposal Title: Memory Support Chatbot for Pregnant Women.
 
+
+'''
+#Proposal Title: Memory Support Chatbot for Pregnant Women.
+
 Project Summary:
 The proposed project is to develop a Memory Support Chatbox for Pregnant Women using the GPT-2 language model. The chatbox aims to provide support, solutions, tips, and advice for pregnant women experiencing cognitive memory issues. The goal is to offer a personalized and accessible resource for pregnant women to manage their cognitive memory challenges effectively.
 
 Proposed Project and Reasoning:
 The project is proposed to address the lack of easily accessible and personalized support for pregnant women facing cognitive memory issues. By leveraging the capabilities of the GPT-2 language model, the chatbox can provide instant responses and guidance, complementing the advice of healthcare professionals.
-
 *Dictionary-Based DataFrame creation method: This method reads the text files into a list of dictionaries and then creates a pandas DataFrame from these dictionaries using streamlit as the Gradio. Model is fine-tuned*
+'''
+
+
+
+
 
 import pandas as pd                  # Pandas for data manipulation and analysis            
 import nltk                          # NLTK for natural language processing tasks
