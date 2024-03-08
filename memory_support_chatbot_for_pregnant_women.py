@@ -78,10 +78,7 @@ for file_path in txt_files:
         text = file.read()
         data.append({"text": text})
 
-df = pd.DataFrame(data)
 
-# Display the DataFrame
-print(df)
 
 """##Data Cleaning and Manipulation"""
 
