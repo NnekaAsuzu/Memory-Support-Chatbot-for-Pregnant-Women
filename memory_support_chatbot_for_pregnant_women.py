@@ -77,8 +77,11 @@ for file_path in txt_files:
     with open(file_path, "r") as file:
         text = file.read()
         data.append({"text": text})
+        
+df = pd.DataFrame(data)
 
-
+# Display the DataFrame
+print(df)
 
 """##Data Cleaning and Manipulation"""
 
@@ -433,6 +436,13 @@ for prompt in sample_prompts:
     output = model.generate(input_ids, max_length=100, num_return_sequences=1, pad_token_id=tokenizer.eos_token_id, attention_mask=input_ids.ne(tokenizer.eos_token_id))
     response = tokenizer.decode(output[0], skip_special_tokens=True)
     data.append({"prompt": prompt, "response": response})
+
+
+# Create a DataFrame from the generated responses
+df = pd.DataFrame(data)
+
+# Display the DataFrame
+print(df)
 
 
 # Use the generated responses for visualization
