@@ -17,7 +17,7 @@ The project is proposed to address the lack of easily accessible and personalize
 *Dictionary-Based DataFrame creation method: This method reads the text files into a list of dictionaries and then creates a pandas DataFrame from these dictionaries using streamlit as the Gradio. Model is fine-tuned*
 
 
-import os                            # Import the os module for interacting with the operating system
+
 import pandas as pd                  # Pandas for data manipulation and analysis
 import nltk                          # NLTK for natural language processing tasks
 from nltk.corpus import stopwords    # Stopwords from NLTK
