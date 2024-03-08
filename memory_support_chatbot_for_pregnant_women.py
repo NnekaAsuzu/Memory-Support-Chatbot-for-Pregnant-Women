@@ -437,11 +437,6 @@ for prompt in sample_prompts:
     response = tokenizer.decode(output[0], skip_special_tokens=True)
     data.append({"prompt": prompt, "response": response})
 
-# Create a DataFrame from the generated responses
-df = pd.DataFrame(data)
-
-# Display the DataFrame
-print(df)
 
 # Use the generated responses for visualization
 # For example, you can create a pie chart based on the responses
