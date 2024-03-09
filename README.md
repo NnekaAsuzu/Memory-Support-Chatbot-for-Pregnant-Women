@@ -1,10 +1,8 @@
-# Memory Support Chatbox for Pregnant Women
+# Memory Support Chatbot for Pregnant Women
 
 ## Overview
 
-This project aims to develop a Memory Support Chatbox for Pregnant Women using the GPT-2 language model. The chatbox will provide support and information to pregnant women experiencing cognitive memory issues during pregnancy.
-
-
+This project aims to develop a Memory Support Chatbot for Pregnant Women using the GPT-2 language model. The chatbot will provide support and information to pregnant women experiencing cognitive memory issues during pregnancy.
 
 ## Dataset
 
@@ -12,26 +10,24 @@ The project uses text data related to pregnancy and memory issues. The dataset i
 
 ## Methodology
 
-The methodology for developing the Memory Support Chatbox includes:
+The methodology for developing the Memory Support Chatbot includes:
 
 1. **Data Cleaning and Preprocessing:** Cleaning and tokenizing the text data to prepare it for analysis and model training.
 2. **Data Visualization:** Visualizing the types of cognitive memory issues and their frequencies reported by pregnant women.
-3. **Model Integration:** Integrating the cleaned text data into the GPT-2 model to generate responses for the chatbox.
-4. **Model Evaluation:** Evaluating the performance of the chatbox in providing relevant and helpful responses to user queries.
-
-
+3. **Model Integration:** Integrating the cleaned text data into the GPT-2 model to generate responses for the chatbot.
+4. **Model Evaluation:** Evaluating the performance of the chatbot in providing relevant and helpful responses to user queries.
 
 ## Results
 
-The Memory Support Chatbox demonstrates the ability to provide supportive and informative responses to pregnant women experiencing cognitive memory issues. The chatbox aims to improve user experience and provide valuable support during pregnancy.
+The Memory Support Chatbot demonstrates the ability to provide supportive and informative responses to pregnant women experiencing cognitive memory issues. The chatbot aims to improve user experience and provide valuable support during pregnancy.
 
 ## Future Improvements
 
-Future improvements to the chatbox could include:
+Future improvements to the chatbot could include:
 
 - Fine-tuning the GPT-2 model to improve response accuracy and relevance.
-- Incorporating user feedback to continuously improve the chatbox's performance and usability.
-- Expanding the chatbox's capabilities to provide additional support and information related to pregnancy and memory issues.
+- Incorporating user feedback to continuously improve the chatbot's performance and usability.
+- Expanding the chatbot's capabilities to provide additional support and information related to pregnancy and memory issues.
 
 ## Project Constraints
 
@@ -43,10 +39,10 @@ Issues/Constraints:
 
 ## Deployment
 
-The Memory Support Chatbox has been tested on both Gradio and Streamlit for deployment. Both platforms provide user-friendly interfaces for interacting with the chatbox.
+The Memory Support Chatbot has been tested on both Gradio and Streamlit for deployment. Both platforms provide user-friendly interfaces for interacting with the chatbot.
 
-- **Gradio:** Gradio offers a simple interface for deploying and testing machine learning models, including chatbots. The chatbox can be accessed through a web browser, allowing users to input their queries and receive responses from the GPT-2 model.
-- **Streamlit:** Streamlit provides a platform for building and deploying data apps, including chatbots. The chatbox can be deployed as a web app, allowing users to interact with it through a user-friendly interface.
+- **Gradio:** Gradio offers a simple interface for deploying and testing machine learning models, including chatbots. The chatbot can be accessed through a web browser, allowing users to input their queries and receive responses from the GPT-2 model.
+- **Streamlit:** Streamlit provides a platform for building and deploying data apps, including chatbots. The chatbot can be deployed as a web app, allowing users to interact with it through a user-friendly interface.
 
 ## Contributor(s)
 
@@ -54,10 +50,9 @@ Nneka Asuzu
 
 ## Setup
 
-To run the Memory Support Chatbox for Pregnant Women locally, follow these steps:
+To run the Memory Support Chatbot for Pregnant Women locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/NnekaAsuzu/Memory-Support-Chatbot-for-Pregnant-Women.git`
 2. Navigate to the project directory: `cd Memory-Support-Chatbot-for-Pregnant-Women`
 3. Install dependencies: `pip install -r requirements.txt`
-4. Run the chatbox: `python chatbox.py`
-
+4. Run the chatbot: `python chatbot.py`
