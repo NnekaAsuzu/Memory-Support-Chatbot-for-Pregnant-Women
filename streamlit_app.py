@@ -93,6 +93,7 @@ try:
         context.append(user_input)
         input_text = " ".join(context[-3:])  # Consider last 3 messages as context
         reply_text = fine_tuned_generate_response(input_text)
+        st.write(reply_text)
         st.text_area("Chatbot:", value=reply_text, height=200)
         st.experimental_rerun()  # Clear the input field after user submits
 except Exception as e:
