@@ -55,4 +55,6 @@ To run the Memory Support Chatbot for Pregnant Women locally, follow these steps
 1. Clone the repository: `git clone https://github.com/NnekaAsuzu/Memory-Support-Chatbot-for-Pregnant-Women.git`
 2. Navigate to the project directory: `cd Memory-Support-Chatbot-for-Pregnant-Women`
 3. Install dependencies: `pip install -r requirements.txt`
-4. Run the chatbot: `python chatbot.py`
+4. Run the chatbot with Gradio: `python gradio_app.py`
+5. Run the chatbot with Streamlit: `streamlit run streamlit_app.py`
+
