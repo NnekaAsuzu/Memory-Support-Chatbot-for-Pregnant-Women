@@ -53,7 +53,7 @@ Nneka Asuzu
 
 ### Gradio Interface
 
-![Gradio Interface 1](Memory-Support-Chatbot-for-Pregnant-Women/Gradio website screenshots
+![Gradio Interface 1](/Gradio website screenshots
 /gradioweb1.png)
 ![Gradio Interface 2](Memory-Support-Chatbot-for-Pregnant-Women/Gradio website screenshots/gradioweb2.png)
 ...
