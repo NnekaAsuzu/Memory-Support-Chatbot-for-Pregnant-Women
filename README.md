@@ -53,17 +53,20 @@ Nneka Asuzu
 
 ### Gradio Interface
 
-![Gradio Interface 1](/Gradio website screenshots/gradioweb1.png)
-![Gradio Interface 2](Memory-Support-Chatbot-for-Pregnant-Women/Gradio website screenshots/gradioweb2.png)
-![Screenshot 1](/Foodchoicescreenshots/fc1.png)
-
 ![Gradio Interface 1](/gradiowebsitescreenshots/gradioweb1.png)
-
+![Gradio Interface 1](/gradiowebsitescreenshots/gradioweb2.png)
+![Gradio Interface 1](/gradiowebsitescreenshots/gradioweb3.png)
+![Gradio Interface 1](/gradiowebsitescreenshots/gradioweb4.png)
+![Gradio Interface 1](/gradiowebsitescreenshots/gradioweb5.png)
+![Gradio Interface 1](/gradiowebsitescreenshots/gradioweb6.png)
+![Gradio Interface 1](/gradiowebsitescreenshots/gradioweb7.png)
+![Gradio Interface 1](/gradiowebsitescreenshots/gradioweb8.png)
+![Gradio Interface 1](/gradiowebsitescreenshots/gradioweb9.png)
+![Gradio Interface 1](/gradiowebsitescreenshots/gradioweb10.png)
 
 ### Streamlit Interface
 
-![Streamlit Interface 1](Memory-Support-Chatbot-for-Pregnant-Women/Streamlit website screenshots/streamlitweb1.png)
-![Streamlit Interface 2](Memory-Support-Chatbot-for-Pregnant-Women/Streamlit website screenshots/streamlitweb2.png)
+![Streamlit Interface](/Streamlitewebsitescreenshot/streamlitappwebpic.png)
 
 
 ## Setup
