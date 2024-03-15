@@ -57,6 +57,9 @@ Nneka Asuzu
 ![Gradio Interface 2](Memory-Support-Chatbot-for-Pregnant-Women/Gradio website screenshots/gradioweb2.png)
 ![Screenshot 1](/Foodchoicescreenshots/fc1.png)
 
+![Gradio Interface 1](/gradiowebsitescreenshots/gradioweb1.png)
+
+
 ### Streamlit Interface
 
 ![Streamlit Interface 1](Memory-Support-Chatbot-for-Pregnant-Women/Streamlit website screenshots/streamlitweb1.png)
