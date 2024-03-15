@@ -53,10 +53,9 @@ Nneka Asuzu
 
 ### Gradio Interface
 
-![Gradio Interface 1](/Gradio website screenshots
-/gradioweb1.png)
+![Gradio Interface 1](/Gradio website screenshots/gradioweb1.png)
 ![Gradio Interface 2](Memory-Support-Chatbot-for-Pregnant-Women/Gradio website screenshots/gradioweb2.png)
-...
+![Screenshot 1](/Foodchoicescreenshots/fc1.png)
 
 ### Streamlit Interface
 
