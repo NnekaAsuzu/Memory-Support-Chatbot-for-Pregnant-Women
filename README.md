@@ -48,6 +48,21 @@ The Memory Support Chatbot has been tested on both Gradio and Streamlit for depl
 
 Nneka Asuzu
 
+
+## App Screenshots
+
+### Gradio Interface
+
+![Gradio Interface 1](Memory-Support-Chatbot-for-Pregnant-Women/Gradio website screenshots/gradioweb1.png)
+![Gradio Interface 2](Memory-Support-Chatbot-for-Pregnant-Women/Gradio website screenshots/gradioweb2.png)
+...
+
+### Streamlit Interface
+
+![Streamlit Interface 1](Memory-Support-Chatbot-for-Pregnant-Women/Streamlit website screenshots/streamlitweb1.png)
+![Streamlit Interface 2](Memory-Support-Chatbot-for-Pregnant-Women/Streamlit website screenshots/streamlitweb2.png)
+
+
 ## Setup
 
 To run the Memory Support Chatbot for Pregnant Women locally, follow these steps:
